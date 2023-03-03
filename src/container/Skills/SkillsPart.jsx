@@ -33,7 +33,7 @@ function SkillsPart() {
             key="frontend"
         >               
             <img src={ frontend } alt="Frontend development" />
-            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1rem' }}>Frontend development</h2>
+            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1.2rem' }}>Frontend development</h2>
              
           </motion.div>   
           
@@ -45,7 +45,7 @@ function SkillsPart() {
             key="backend"
         >                
             <img src={ backend } alt="Backend development" />
-            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1rem' }}>Backend development</h2>
+            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1.2rem' }}>Backend development</h2>
              
           </motion.div>  
 
@@ -56,7 +56,7 @@ function SkillsPart() {
             key="fullstack"
         >                
             <img src={ fullstack } alt="Fullstack development" />
-            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1rem' }}>Fullstack development</h2>
+            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1.2rem' }}>Fullstack development</h2>
              
           </motion.div> 
 
@@ -67,7 +67,7 @@ function SkillsPart() {
             key="mobile_app"
         >                
             <img src={ mobileApp } alt="MobileApp development" />
-            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1rem' }}>Mobile app development</h2>
+            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1.2rem' }}>Mobile app development</h2>
              
           </motion.div> 
 
@@ -79,7 +79,7 @@ function SkillsPart() {
             key="game_dev"
         >                
             <img src={ game } alt="Game development" />
-            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1rem' }}>Game development</h2>
+            <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1.2rem' }}>Game development</h2>
              
           </motion.div>      
     </div> 
