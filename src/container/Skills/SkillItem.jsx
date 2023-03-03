@@ -16,10 +16,6 @@ import rest from '../../images/api.png'
 import github from '../../images/GitHub.png'
 
 
-
-
-
-
 const scaleVariants = {
   hidden: { opacity: 1, scale: 0 },
   visible: {
@@ -39,8 +35,9 @@ function SkillItem() {
         <motion.div className="app__skills-list">
           
             <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
+                
                           
               className="app__skills-item app__flex" key="html">
               
@@ -51,7 +48,7 @@ function SkillItem() {
               </motion.div>
 
               <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="css">
@@ -63,7 +60,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="javascript">
@@ -75,7 +72,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="react">
@@ -87,7 +84,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="node">
@@ -99,7 +96,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="python">
@@ -111,7 +108,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="rest_api">
@@ -123,7 +120,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="sass">
@@ -135,7 +132,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="git">
@@ -147,7 +144,7 @@ function SkillItem() {
               </motion.div>
 
                    <motion.div
-                whileInView={{ y: [0, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} 
                           
               className="app__skills-item app__flex" key="github">

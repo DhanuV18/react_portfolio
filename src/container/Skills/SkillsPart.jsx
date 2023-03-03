@@ -9,17 +9,29 @@ import fullstack from '../../images/fullstack2.webp'
 import mobileApp from '../../images/mobile.png'
 import game from '../../images/game__photoshop.webp'
 
+const scaleVariants = {
+  whileInView: {
+    scale: [0, 1],
+    opacity: [0, 1],
+    transition: {
+      duration: 0.7,
+      ease: "easeInOut",
+    },
+  },
+};
+
 
 function SkillsPart() {
   return (
     <div className="app__profiles skill__part-container">
         <motion.div
-            whileInView={{ y: [0, 50], opacity: [0, 1] }}
-            transition={{ duration: 0.3 }} 
-            whileHover={{ scale: 1.1 }}
+            
+          variants={scaleVariants}
+          whileInView={scaleVariants.whileInView}
+        
             className="app__profile-item"
             key="frontend"
-        >                
+        >               
             <img src={ frontend } alt="Frontend development" />
             <h2 className="bold-text" style={{ marginTop: 20, marginLeft: 0,  fontSize: '1rem' }}>Frontend development</h2>
              
@@ -27,9 +39,8 @@ function SkillsPart() {
           
 
           <motion.div
-            whileInView={{ y: [0, 50], opacity: [0, 1] }}
-            transition={{ duration: 0.3 }} 
-            whileHover={{ scale: 1.1 }}
+             variants={scaleVariants}
+            whileInView={scaleVariants.whileInView}
             className="app__profile-item"
             key="backend"
         >                
@@ -39,9 +50,8 @@ function SkillsPart() {
           </motion.div>  
 
          <motion.div
-            whileInView={{ y: [0, 50], opacity: [0, 1] }}
-            transition={{ duration: 0.3 }} 
-            whileHover={{ scale: 1.1 }}
+            variants={scaleVariants}
+            whileInView={scaleVariants.whileInView}
             className="app__profile-item"
             key="fullstack"
         >                
@@ -51,9 +61,8 @@ function SkillsPart() {
           </motion.div> 
 
          <motion.div
-            whileInView={{ y: [0, 50], opacity: [0, 1] }}
-            transition={{ duration: 0.3 }} 
-            whileHover={{ scale: 1.1 }}
+            variants={scaleVariants}
+            whileInView={scaleVariants.whileInView}
             className="app__profile-item"
             key="mobile_app"
         >                
@@ -64,9 +73,8 @@ function SkillsPart() {
 
 
          <motion.div
-            whileInView={{ y: [0, 50], opacity: [0, 1] }}
-            transition={{ duration: 0.3 }} 
-            whileHover={{ scale: 1.1 }}
+            variants={scaleVariants}
+            whileInView={scaleVariants.whileInView}
             className="app__profile-item"
             key="game_dev"
         >                

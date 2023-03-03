@@ -41,34 +41,30 @@ const Skills = ({name , icon }) => {
   //   });
   // }, []); 
 
-  const scaleVariants = {
-  hidden: { opacity: 1, scale: 0 },
-  visible: {
-    opacity: 1,
-    scale: 1,
+const scaleVariants = {
+  whileInView: {
+    scale: [0, 1],
+    opacity: [0, 1],
     transition: {
-      delayChildren: 0.3,
-      staggerChildren: 0.2
-    }
-  }
-};
-    
-
-
-    
+      duration: 0.7,
+      ease: "easeInOut",
+    },
+  },
+};    
     
   return (
     <div className='skills__container' id="skills">
       <motion.div
         variants={scaleVariants}
-          whileInView={scaleVariants.whileInView}   
-          className="app__header-img">
+        whileInView={scaleVariants.whileInView}   
+        // className="app__header-img"
+      >
           <h1 className="skills__head-text">Skills</h1>
 
       </motion.div>
-
+  
       <motion.div
-                whileInView={{ y: [-20, 20], opacity: [0, 1] }}
+                whileInView={{ y: [-60, 20], opacity: [0, 1] }}
                 transition={{ duration: 0.3 }} >
                 <h1 className='skills__heading'>My Toolbox & Things I can Do</h1>
       </motion.div>
