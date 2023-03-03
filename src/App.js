@@ -15,19 +15,19 @@ import Skills from './container/Skills/Skills';
 // import Work from './container/Work/Work';
 // import './container/Work/Work.scss'
 
-// import Footer from './container/Footer/Footer';
-// import './container/Footer/Footer.scss'
+import Footer from './container/Footer/Footer';
+import './container/Footer/Footer.scss'
 
 
 function App() {
   return (
     <div className='app'>
-      <Navbar />
+      {/* <Navbar />
       <Header />
       <About /> 
-      <Skills /> 
-      {/* <Work />
-      <Footer />       */}
+      <Skills />  */}
+      {/* <Work /> */}
+      <Footer />      
     </div>
 
   );

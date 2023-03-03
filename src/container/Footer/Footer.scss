@@ -179,7 +179,7 @@
     box-shadow: 0 0 100px 1px var(--secondary-blue-light-color);
 }
 
-.input[type="text"],
+.input[type="name"],
 .input[type="email"],
 textarea {
     width: 100%;
@@ -310,6 +310,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 .copyright {
