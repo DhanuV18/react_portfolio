@@ -23,8 +23,8 @@ function App() {
   return (
     <div className='app'>
       <Navbar />
-      {/* <Header />
-      <About />  */}
+      <Header />
+      {/* <About />  */}
       {/* <Skills /> 
       <Work />
       <Footer />       */}
