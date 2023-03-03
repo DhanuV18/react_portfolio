@@ -1,5 +1,6 @@
 .work__container{
   padding: 3.5rem 0;
+
 }
 
 .work{
@@ -207,4 +208,40 @@
   color: rgb(37, 9, 9);
   font-size: 1.2rem;
   
+}
+
+.project__card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+  @media screen and (min-width: 766px) {
+    flex-direction: row;
+    max-width: 1500px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.skillPart__heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillPart__heading > h4{
+  color: rgb(11, 12, 71);
+  font-size: 2rem;
+  margin: 1.2rem 0;
+  
+  @media screen and (min-width: 766px) {
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+  }
+}
+
+.skillPart__container{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
