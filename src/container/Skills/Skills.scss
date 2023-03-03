@@ -210,6 +210,9 @@
   align-items: center;
   flex-direction: column;
   margin: 1.8rem;
+  
+
+
 
   img {
     width: 100%;
@@ -217,6 +220,7 @@
     border-radius: 15px;
     object-fit: cover;
   }
+  
 
   @media screen and (min-width: 2000px) {
     width: 370px;
@@ -227,6 +231,16 @@
     }
   }
 }
+
+.app__profile-item-image{
+  transition: transform 0.2s;
+
+  &:hover {
+      transform: scale(1.1);
+    }
+}
+
+
 
 .skills__head-text {
   color: var(--heading-color);
@@ -267,3 +281,4 @@
   max-width: 800px;
   margin: 2rem auto;
 }
+
