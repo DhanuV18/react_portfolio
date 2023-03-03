@@ -9,8 +9,8 @@ import './container/Header/Header.scss'
 import About from './container/About/About'
 import './container/About/About.scss';
 
-// import './App.scss';
-// import Skills from './container/Skills/Skills';
+import './App.scss';
+import Skills from './container/Skills/Skills';
 
 // import Work from './container/Work/Work';
 // import './container/Work/Work.scss'
@@ -25,8 +25,8 @@ function App() {
       <Navbar />
       <Header />
       <About /> 
-      {/* <Skills /> 
-      <Work />
+      {/* <Skills />  */}
+      {/* <Work />
       <Footer />       */}
     </div>
 

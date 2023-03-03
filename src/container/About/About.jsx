@@ -64,7 +64,7 @@ const About = () => {
                       Get in touch! <span className="heart">❤️</span>
                     </a>
                   </h3>
-                  <a href='../../resume/My_resume.pdf'>
+                  <a href='../../resume/My_resume.pdf' className="btn__resume">
                     <button type="button" className="btn btn__download" download>
                       Download CV
                     </button>
