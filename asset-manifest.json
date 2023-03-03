@@ -1,25 +1,28 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.b68d13c6.css",
-    "main.js": "/react_portfolio/static/js/main.a21cf257.js",
+    "main.js": "/react_portfolio/static/js/main.0f075b39.js",
     "static/media/bgIMG23.png": "/react_portfolio/static/media/bgIMG23.655a3b491720c4d068de.png",
     "static/media/bgIMG3.jpg": "/react_portfolio/static/media/bgIMG3.7dfd0c9fd6bf37d9c68a.jpg",
     "static/media/profile.png": "/react_portfolio/static/media/profile.134090c2f1bcf3f904aa.png",
     "static/media/IMGYellow.png": "/react_portfolio/static/media/IMGYellow.f9b23b12fd2d56013aeb.png",
     "static/media/My_resume.pdf": "/react_portfolio/static/media/My_resume.711e8397aa0808bffdd7.pdf",
+    "static/media/sass.png": "/react_portfolio/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/node.png": "/react_portfolio/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/mobile.png": "/react_portfolio/static/media/mobile.145d9ce0157a56f8fcd8.png",
     "static/media/Dhanushan__logo.png": "/react_portfolio/static/media/Dhanushan__logo.b087c401b6350854b9b1.png",
     "static/media/backend2.webp": "/react_portfolio/static/media/backend2.94baaa8e1801c5c13319.webp",
     "static/media/css.png": "/react_portfolio/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/git.png": "/react_portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/game__photoshop.webp": "/react_portfolio/static/media/game__photoshop.b69d7878115a019c8be2.webp",
     "static/media/fullstack2.webp": "/react_portfolio/static/media/fullstack2.770701c1c7345a6547c0.webp",
     "static/media/frontend.webp": "/react_portfolio/static/media/frontend.6d5a8f4ccc23d7b20de6.webp",
     "index.html": "/react_portfolio/index.html",
     "main.b68d13c6.css.map": "/react_portfolio/static/css/main.b68d13c6.css.map",
-    "main.a21cf257.js.map": "/react_portfolio/static/js/main.a21cf257.js.map"
+    "main.0f075b39.js.map": "/react_portfolio/static/js/main.0f075b39.js.map"
   },
   "entrypoints": [
     "static/css/main.b68d13c6.css",
-    "static/js/main.a21cf257.js"
+    "static/js/main.0f075b39.js"
   ]
 }
