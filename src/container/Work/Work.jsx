@@ -46,9 +46,9 @@ const Work = () => {
         
     </motion.div>
         <Frontend />
-        <Backend />
-        <FullStack />
-        <Mobile />
+        {/* <Backend /> */}
+        {/* <FullStack /> */}
+        {/* <Mobile /> */}
         <Game />
 
 
@@ -59,11 +59,5 @@ const Work = () => {
           </div>
   );
 };
-
-// export default MotionWrap(
-//   MotionWrap(Work, 'app__works'),
-//   'work',
-//   'app__primarybg',
-// );
 
 export default Work

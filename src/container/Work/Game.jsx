@@ -27,7 +27,7 @@ const scaleVariants = {
                 whileInView={scaleVariants.whileInView}          
             >
               <div className='skillPart__heading'>
-                  <h4 className='skillPart__subheading'>Game development</h4>            
+                  <h4 className='skillPart__subheading'>Game Development</h4>            
               </div>  
           </motion.div>  
           
@@ -38,7 +38,7 @@ const scaleVariants = {
         className="app__work-portfolio"
       >
  
-          <div className="app__work-item app__flex" key="movie_App">
+          <div className="app__work-item app__flex" key="RockScissorPaper">
             <div
               className="app__work-img app__flex"
             >

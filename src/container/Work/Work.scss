@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .work__container{
   padding: 3.5rem 0;
 
@@ -98,7 +100,7 @@
 
 .app__work-img {
   width: 100%;
-  height: 250px;
+  height: 265px;
 
   position: relative;
 
@@ -151,6 +153,8 @@
 
 .work__heading{
   color: var(--heading-color);
+  font-size: 3rem;
+  
 }
 
 .app__work-content {
@@ -159,6 +163,8 @@
   width: 100%;
   position: relative;
   flex-direction: column;
+  height: 200px;
+  justify-content: flex-start;
 
   h4 {
     
@@ -231,9 +237,10 @@
 }
 
 .skillPart__heading > h4{
-  color: rgb(11, 12, 71);
-  font-size: 2rem;
+  
+  font-size: 4rem;
   margin: 1.2rem 0;
+  font-weight: 400;
   
   @media screen and (min-width: 766px) {
     font-size: 1.6rem;
@@ -244,4 +251,12 @@
 .skillPart__container{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.skillPart__subheading{
+  font-weight: 800;
+  font-family: 'Righteous', cursive;
+  letter-spacing: 1px;
+  font-size: 4rem;
+  color: rgb(45, 7, 133);
 }
