@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
-import AppWrap from '../../wrapper/AppWrap';
-import MotionWrap from '../../wrapper/MotionWrap';
-// import { urlFor, client } from '../../client';
+// import AppWrap from '../../wrapper/AppWrap';
+// import MotionWrap from '../../wrapper/MotionWrap';
+
 import './Work.scss';
 import Frontend from './Frontend';
 import Backend from './Backend';
@@ -21,16 +21,6 @@ const Work = () => {
 
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
-
-
-//   const handleWorkFilter = (item) => {
-//     setActiveFilter(item);
-//     setAnimateCard([{ y: 100, opacity: 0 }]);
-
-//     setTimeout(() => {
-//       setAnimateCard([{ y: 0, opacity: 1 }]);
-
-//  };
 
   const scaleVariants = {
   whileInView: {
@@ -70,8 +60,10 @@ const Work = () => {
   );
 };
 
-export default MotionWrap(
-  MotionWrap(Work, 'app__works'),
-  'work',
-  'app__primarybg',
-);
+// export default MotionWrap(
+//   MotionWrap(Work, 'app__works'),
+//   'work',
+//   'app__primarybg',
+// );
+
+export default Work
