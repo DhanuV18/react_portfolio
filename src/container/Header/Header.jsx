@@ -38,7 +38,7 @@ function Header() {
     <div
       id='home'
       className='app__header app__flex'>
-      
+    
       <motion.div
         whileInView={{ y: [10, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
@@ -60,17 +60,6 @@ function Header() {
       </motion.div>
  
       <motion.div
-        whileInView={{ y: [0, 0], opacity: [0, 1] }}
-        transition={{ duration: 0.5 }}>
-        <div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-            <div className="wave"></div>
-        </div> 
-      
-      </motion.div>        
-
-       <motion.div
         //  whileInView={{ y: [15, 0], opacity: [0, 1] }}
         // transition={{ duration: 0.5 }}
           variants={scaleVariants}
@@ -82,10 +71,8 @@ function Header() {
             <source type="../../images/profile.png" srcSet="../../images/profile.png 1x, ../../images/profile@2x.png 2x" />
             <img src={profile} alt="profile picture" className='profile__picture'/>         
         </picture>
-        
-      </motion.div>
-        
-              <motion.div
+
+        <motion.div
         whileInView={{ y: [0, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}>
         <div>
@@ -94,7 +81,13 @@ function Header() {
             <div className="wave"></div>
         </div> 
       
-      </motion.div>  
+      </motion.div>
+         
+      </motion.div>
+        
+      
+      
+
       
 
         <motion.div
