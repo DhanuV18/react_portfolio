@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.d960b4ab.css",
-    "main.js": "/react_portfolio/static/js/main.240eaf67.js",
+    "main.css": "/react_portfolio/static/css/main.c3a62ff2.css",
+    "main.js": "/react_portfolio/static/js/main.f0bf8031.js",
     "static/media/bgIMG36p.png": "/react_portfolio/static/media/bgIMG36p.d9d471549e692ca6f461.png",
     "static/media/bgIMG23.png": "/react_portfolio/static/media/bgIMG23.655a3b491720c4d068de.png",
     "static/media/bgIMG16.png": "/react_portfolio/static/media/bgIMG16.605f4fcfb666fcc2ef76.png",
@@ -21,14 +21,15 @@
     "static/media/css.png": "/react_portfolio/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/react_portfolio/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/game__photoshop.webp": "/react_portfolio/static/media/game__photoshop.b69d7878115a019c8be2.webp",
+    "static/media/game.webp": "/react_portfolio/static/media/game.2ceda5ce4dcaf5d1e5dd.webp",
     "static/media/fullstack2.webp": "/react_portfolio/static/media/fullstack2.770701c1c7345a6547c0.webp",
     "static/media/frontend.webp": "/react_portfolio/static/media/frontend.6d5a8f4ccc23d7b20de6.webp",
     "index.html": "/react_portfolio/index.html",
-    "main.d960b4ab.css.map": "/react_portfolio/static/css/main.d960b4ab.css.map",
-    "main.240eaf67.js.map": "/react_portfolio/static/js/main.240eaf67.js.map"
+    "main.c3a62ff2.css.map": "/react_portfolio/static/css/main.c3a62ff2.css.map",
+    "main.f0bf8031.js.map": "/react_portfolio/static/js/main.f0bf8031.js.map"
   },
   "entrypoints": [
-    "static/css/main.d960b4ab.css",
-    "static/js/main.240eaf67.js"
+    "static/css/main.c3a62ff2.css",
+    "static/js/main.f0bf8031.js"
   ]
 }
