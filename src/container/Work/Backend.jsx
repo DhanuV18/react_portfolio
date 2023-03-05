@@ -27,7 +27,7 @@ const scaleVariants = {
                 whileInView={scaleVariants.whileInView}          
             >
               <div className='skillPart__heading'>
-                  <h4 className='skillPart__subheading'>Backend Development</h4>            
+                  <h6 className='skillPart__subheading'>Backend Development</h6>            
               </div>  
           </motion.div>  
           

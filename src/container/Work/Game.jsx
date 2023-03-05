@@ -3,7 +3,7 @@ import './Work.scss'
 import { motion } from 'framer-motion';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 
-import movie from '../../images/thumbnail/movie.jpg'
+import game from '../../images/thumbnail/game.webp'
 
 
 function Game({ index, imgUrl, name, projectLink, codeLink, tools, title, description}) {
@@ -27,7 +27,7 @@ const scaleVariants = {
                 whileInView={scaleVariants.whileInView}          
             >
               <div className='skillPart__heading'>
-                  <h4 className='skillPart__subheading'>Game Development</h4>            
+                  <h6 className='skillPart__subheading'>Game Development</h6>            
               </div>  
           </motion.div>  
           
@@ -43,7 +43,7 @@ const scaleVariants = {
               className="app__work-img app__flex"
             >
            
-                      <img src={ movie } alt="movie" />
+                      <img src={ game } alt="game" />
              
 
               <motion.div
@@ -51,7 +51,7 @@ const scaleVariants = {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
-                <a href='https://dhanuv18.github.io/Movie-App/' target="_blank" rel="noreferrer">
+                <a href='https://dhanuv18.github.io/Rock-Paper-Scissor-game/' target="_blank" rel="noreferrer">
 
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -62,7 +62,7 @@ const scaleVariants = {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href='https://github.com/DhanuV18/Movie-App' target="_blank" rel="noreferrer" className='language'>
+                <a href='https://github.com/DhanuV18/Rock-Paper-Scissor-game' target="_blank" rel="noreferrer" className='language'>
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
@@ -77,12 +77,18 @@ const scaleVariants = {
 
             <div className="app__work-tag app__flex app__tool">
                 <div className="p-text tools">
-                  HTML / CSS
+                  HTML / CSS / JavaScript
                 </div>
             </div>
-            <div className="app__work-content app__flex">
-              <h2 className="bold-text title">Movie app</h2>
-              <p className="p-text" style={{ marginTop: 10 }}>abc</p>
+            <div className="game">
+              <h2 className="bold-text title game-title">Rock Paper Scissor Game</h2>
+              <p className="p-text" style={{ marginTop: 10 }}>
+                This is a simple and fun game which you can play against the computer.
+                If you click Scissors and the computer chooses the paper you win the game.
+                Scissors can cut paper. If you choose scissors and the computer chooses rock,
+                the computer wins the game. Rock can break scissors.
+                If you choose Paper and the computer chooses rock, you win the game.
+                Paper can wrap the rock.</p>
 
       
             </div>
