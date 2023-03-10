@@ -43,15 +43,14 @@ const scaleVariants = {
               className="app__work-img app__flex"
             >
            
-                      <img src={ movie } alt="movie" />
-             
+            <img src={ movie } alt="movie" />
 
-              <motion.div
+            <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
-              >
-                <a href='https://dhanuv18.github.io/Movie-App/' target="_blank" rel="noreferrer">
+            >
+            <a href='https://dhanuv18.github.io/Movie-App/' target="_blank" rel="noreferrer">
 
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -90,6 +89,18 @@ const scaleVariants = {
 
       
             </div>
+            <div className='mobile__button'>
+
+              <div className='btn__demo'>
+                <a href='https://dhanuv18.github.io/Movie-App/' target="_blank" rel="noreferrer">Demo</a>
+              </div>
+
+              <div className='btn__repo'>
+                <a href='https://github.com/DhanuV18/Movie-App' target="_blank" rel="noreferrer">Repo</a>
+              </div>
+
+            </div>
+
           </div>
 
           </motion.div>
@@ -140,7 +151,7 @@ const scaleVariants = {
 
             <div className="app__work-tag app__flex app__tool">
                 <div className="p-text tools">
-                  React js / Styled Components
+                  React js
                 </div>
             </div>
             <div className="app__work-content app__flex">
@@ -151,6 +162,18 @@ const scaleVariants = {
               </p>
 
       
+            </div>
+
+             <div className='mobile__button'>
+
+              <div className='btn__demo'>
+                <a href='https://dhanuv18.github.io/react_tesla_clone/' target="_blank" rel="noreferrer">Demo</a>
+              </div>
+
+              <div className='btn__repo'>
+                <a href='https://github.com/DhanuV18/react_tesla_clone' target="_blank" rel="noreferrer">Repo</a>
+              </div>
+
             </div>
           </div>
 

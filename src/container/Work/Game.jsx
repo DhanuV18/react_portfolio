@@ -88,9 +88,19 @@ const scaleVariants = {
                 Scissors can cut paper. If you choose scissors and the computer chooses rock,
                 the computer wins the game. Rock can break scissors.
                 If you choose Paper and the computer chooses rock, you win the game.
-                Paper can wrap the rock.</p>
+                Paper can wrap the rock.</p>      
+            </div>
 
-      
+             <div className='mobile__button'>
+
+              <div className='btn__demo'>
+                <a href='https://dhanuv18.github.io/Rock-Paper-Scissor-game/' target="_blank" rel="noreferrer">Demo</a>
+              </div>
+
+              <div className='btn__repo'>
+                <a href='https://github.com/DhanuV18/Rock-Paper-Scissor-game' target="_blank" rel="noreferrer">Repo</a>
+              </div>
+
             </div>
           </div>
 
