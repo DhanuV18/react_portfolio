@@ -51,9 +51,6 @@ const Work = () => {
         {/* <Mobile /> */}
         <Game />
 
-
-     
-
    
       </div>
           </div>
