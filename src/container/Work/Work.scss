@@ -62,7 +62,7 @@
   align-items: flex-start;
 
   .app__work-item {
-    width: 19rem;
+    width: 16rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,18 @@
     box-shadow: 0 0 50px 2px rgba(3, 57, 175, 0.5);
 
     @media screen and (min-width: 766px) {
+      width: 25rem;
+        padding: 1.25rem;
+    }
+
+    @media screen and (min-width: 400px) {
       width: 22rem;
+      padding: 1.25rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      width: 13rem;
+      // padding: 1.25rem;
     }
 
     cursor: pointer;
@@ -205,6 +216,11 @@
   margin-top: 0.5rem;
   width: 100%;
   padding: 0 2rem;
+  font-size: 0.8rem;
+
+  @media screen and (min-width: 768px){
+    font-size: 1rem;
+  }
 }
 
 .app__tool{
