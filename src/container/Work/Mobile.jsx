@@ -3,7 +3,7 @@ import './Work.scss'
 import { motion } from 'framer-motion';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 
-import movie from '../../images/thumbnail/movie.jpg'
+import movie from '../../images/thumbnail/movie@2x.webp'
 
 
 function Mobile({ index, imgUrl, name, projectLink, codeLink, tools, title, description}) {
