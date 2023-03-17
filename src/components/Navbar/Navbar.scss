@@ -129,7 +129,7 @@
     align-items: flex-end;
     flex-direction: column;
 
-    background: url("../../images/bgIMG3pp.png");
+    background: url("../../images/bgIMG3.jpg");
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
@@ -141,8 +141,8 @@
     svg {
       width: 35px;
       height: 35px;
-      // color: var(--secondary-color);
-      color: rgb(7, 71, 190);
+      color: var(--secondary-color);
+      // color: rgb(7, 166, 240);
       margin: 0.5rem 1rem;
       cursor: pointer;
     }
