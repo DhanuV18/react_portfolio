@@ -118,7 +118,7 @@
     top: 0;
     bottom: 0;
     right: 0;
-    z-index: 5;
+    z-index: 10;
     padding: 1rem;
 
     width: 80%;
@@ -129,7 +129,7 @@
     align-items: flex-end;
     flex-direction: column;
 
-    background: url("../../images/bgIMG23.png");
+    background: url("../../images/bgIMG3pp.png");
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
@@ -142,7 +142,7 @@
       width: 35px;
       height: 35px;
       // color: var(--secondary-color);
-      color: white;
+      color: rgb(7, 71, 190);
       margin: 0.5rem 1rem;
       cursor: pointer;
     }
@@ -169,7 +169,7 @@
         }
 
         a {
-          color: rgb(255, 255, 255);
+          color: rgb(16, 3, 134);
           text-decoration: none;
           font-size: 1.2rem;
           text-transform: uppercase;
