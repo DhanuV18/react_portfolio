@@ -278,7 +278,7 @@ const scaleVariants = {
                   transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                   className="app__work-hover app__flex" >
                 
-              <a href='netflix-clone-6c7d8.web.app/' target="_blank" rel="noreferrer">
+              <a href='netflix-clone-6c7d8.web.app' target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
@@ -312,7 +312,7 @@ const scaleVariants = {
             </div>
             <div className='mobile__button'>
               <div className='btn__demo'>
-                <a href='netflix-clone-6c7d8.web.app/' target="_blank" rel="noreferrer">Demo</a>
+                <a href='netflix-clone-6c7d8.web.app' target="_blank" rel="noreferrer">Demo</a>
               </div>
               <div className='btn__repo'>
                 <a href='https://github.com/DhanuV18/netflix_clone' target="_blank" rel="noreferrer">Repo</a>
