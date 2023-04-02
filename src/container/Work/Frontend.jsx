@@ -7,7 +7,7 @@ import movie from '../../images/thumbnail/movie@2x.webp'
 import tesla from '../../images/thumbnail/tesla@2x.webp'
 import scooby from '../../images/thumbnail/scooby@2x.webp'
 import portfolio from '../../images/thumbnail/portfolio@2x.webp'
-import netflix from '../../images/thumbnail/netflix@2x.webp'
+import ecommerce from '../../images/thumbnail/e-commerce@2x.webp'
 
 
 function Frontend({ index, imgUrl, name, projectLink, codeLink, tools, title, description}) {
@@ -264,21 +264,21 @@ const scaleVariants = {
           </div>
         </motion.div>  
         
-        {/* Netflix  */}
+        {/* E-Commerce  */}
         
       <motion.div
             // animate={animateCard}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
             className="app__work-portfolio"> 
-          <div className="app__work-item app__flex" key="Netflix">
+          <div className="app__work-item app__flex" key="E-Commerce">
             <div className="app__work-img app__flex" >           
-              <img src={ netflix } alt="netflix" />
+              <img src={ ecommerce } alt="ecommerce" />
                 <motion.div
                   whileHover={{ opacity: [0, 1] }}
                   transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                   className="app__work-hover app__flex" >
                 
-              <a href='netflix-clone-6c7d8.web.app' target="_blank" rel="noreferrer">
+              <a href='https://e-commerce-dhanushaninfo-gmailcom.vercel.app/' target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
@@ -287,7 +287,7 @@ const scaleVariants = {
                     <AiFillEye />
                   </motion.div>
               </a>
-              <a href='https://github.com/DhanuV18/netflix_clone' target="_blank" rel="noreferrer" className='language'>
+              <a href='https://github.com/DhanuV18/E-commerce' target="_blank" rel="noreferrer" className='language'>
                 <motion.div
                   whileInView={{ scale: [0, 1] }}
                   whileHover={{ scale: [1, 0.90] }}
@@ -306,16 +306,16 @@ const scaleVariants = {
             <div className="app__work-content app__flex">
               <h2 className="bold-text title">Netflix Clone</h2>
               <p className="p-text" style={{ marginTop: 10 }}>
-                This is a clone of Tesla company's official website.
-                Here you can find movies, series, movie trailers, etc...                 
+                This is an E-Commerce website for multiple products. Here you can
+                find & add products to cart.
               </p>    
             </div>
             <div className='mobile__button'>
               <div className='btn__demo'>
-                <a href='netflix-clone-6c7d8.web.app' target="_blank" rel="noreferrer">Demo</a>
+                <a href='https://e-commerce-dhanushaninfo-gmailcom.vercel.app/' target="_blank" rel="noreferrer">Demo</a>
               </div>
               <div className='btn__repo'>
-                <a href='https://github.com/DhanuV18/netflix_clone' target="_blank" rel="noreferrer">Repo</a>
+                <a href='https://github.com/DhanuV18/E-commerce' target="_blank" rel="noreferrer">Repo</a>
               </div>
             </div>
           </div>
