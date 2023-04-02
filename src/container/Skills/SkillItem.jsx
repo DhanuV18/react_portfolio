@@ -4,16 +4,16 @@ import React from 'react'
 import './Skills.scss';
 import { motion } from 'framer-motion';
 
-import html from '../../images/html.png'
-import css from '../../images/css.png'
-import javascript from '../../images/javascript.png'
-import react from '../../images/react.png'
-import git from '../../images/git.png'
-import node from '../../images/node.png'
-import sass from '../../images/sass.png'
-import python from '../../images/python.png'
-import rest from '../../images/api.png'
-import github from '../../images/GitHub.png'
+import html from '../../images/html.webp'
+import css from '../../images/css.webp'
+import javascript from '../../images/javascript.webp'
+import react from '../../images/react.webp'
+import git from '../../images/git.webp'
+import node from '../../images/node.webp'
+import sass from '../../images/sass.webp'
+import python from '../../images/python.webp'
+import rest from '../../images/api.webp'
+import github from '../../images/GitHub.webp'
 
 
 const scaleVariants = {

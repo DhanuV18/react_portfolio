@@ -186,7 +186,7 @@ const scaleVariants = {
             </div>
             <div className="app__work-tag app__flex app__tool">
                 <div className="p-text tools">
-                  React js
+                  HTML / CSS / JavaScript
                 </div>
             </div>
             <div className="app__work-content app__flex">

@@ -348,3 +348,9 @@ textarea {
         padding: 0.5rem 0 0 0;
     }
 }
+
+::placeholder{
+    color: rgb(165, 161, 161);
+    font-weight: 500;
+    font-size: 1rem;
+}

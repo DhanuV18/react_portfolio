@@ -42,14 +42,14 @@ const About = () => {
               <div >
                 <h2 className="name__heading">Who is Dhanushan?</h2>
                   <p className="paragraph__one">
-                    I'm passionate about bringing both the technical and
+                   Hi! My name is Dhanushan. I'm passionate about bringing both the technical and
                     visual aspects of digital products to life. As a developer I love to create new products...
                     I'm a Frontend Software engineer who builds websites and web applications that lead to the
                     success of the overall product.
                   </p>
 
                   <motion.div
-            whileInView={{ y: [-150, 0], opacity: [0, 1] }}
+            whileInView={{ y: [-50, 0], opacity: [0, 1] }}
             transition={{ duration: 0.3 }}
           >
                 <p className="paragraph__two">

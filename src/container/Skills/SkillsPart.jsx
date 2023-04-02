@@ -40,7 +40,7 @@ function SkillsPart() {
           </motion.div>   
           
 
-          <motion.div
+          {/* <motion.div
              variants={scaleVariants}
             whileInView={scaleVariants.whileInView}
             className="app__profile-item"
@@ -50,9 +50,9 @@ function SkillsPart() {
             <img src={ backend } alt="Backend development" />
             <h2 className="bold-text" style={{ marginTop: 15, marginLeft: 0,  fontSize: '1.2rem' }}>Backend development</h2>
         </div>  
-          </motion.div>  
+          </motion.div>   */}
 
-         <motion.div
+         {/* <motion.div
             variants={scaleVariants}
             whileInView={scaleVariants.whileInView}
             className="app__profile-item"
@@ -62,9 +62,9 @@ function SkillsPart() {
             <img src={ fullstack } alt="Fullstack development" />
             <h2 className="bold-text" style={{ marginTop: 15, marginLeft: 0,  fontSize: '1.2rem' }}>Fullstack development</h2>
         </div>  
-          </motion.div> 
+          </motion.div>  */}
 
-         <motion.div
+         {/* <motion.div
             variants={scaleVariants}
             whileInView={scaleVariants.whileInView}
             className="app__profile-item"
@@ -74,7 +74,7 @@ function SkillsPart() {
             <img src={ mobileApp } alt="MobileApp development" />
             <h2 className="bold-text" style={{ marginTop: 15, marginLeft: 0,  fontSize: '1.2rem' }}>Mobile app development</h2>
          </div>    
-          </motion.div> 
+          </motion.div>  */}
 
 
          <motion.div
