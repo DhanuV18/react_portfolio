@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import { useState } from "react";
 
-import resume from '../../resume/My_resume.pdf'
+import resume from '../../resume/Visvanathan_Dhanushan_resume.pdf'
 
 const scaleVariants = {
   whileInView: {
