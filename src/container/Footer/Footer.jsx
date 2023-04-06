@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm, ValidationError } from '@formspree/react';
 import { motion } from 'framer-motion';
 import './Footer.scss';
+import Zoom from 'react-reveal/Zoom';
 
 import linkedin from '../../images/linkedin__logo.png'
 import github  from '../../images/github__logo.png'
@@ -39,13 +40,17 @@ function Footer() {
                 >
                     <h1 className="skills__head-text">Contact</h1>
                     
-                </motion.div>
-                <p className='contact__paragraph'>Feel free to contact me by submitting the form below
-                and I will get back to you as soon as possible.
-                </p>
+                    </motion.div>
+                    <Zoom>
+                        <p className='contact__paragraph'>Feel free to contact me by submitting the form below
+                        and I will get back to you as soon as possible.
+                        </p>
+                    </Zoom>
             </header>
 
-            <div>
+                <Zoom>
+                                            
+                <div>
     
                 <form onSubmit={handleSubmit} className="">
  
@@ -93,7 +98,7 @@ function Footer() {
                 <button className="btn input-submit" type="submit" disabled={state.submitting}>Send Mail</button>
             </form>
         </div> 
-            
+             </Zoom>
             
             <div className='social__platform'>
                 <motion.div
@@ -114,8 +119,10 @@ function Footer() {
                 </motion.div>
             </div>  
 
-            <div className="copyright">
-                <img src={logo} alt="" className='footer__logo'/>
+                <div className="copyright">
+                    <Zoom>
+                        <img src={logo} alt="" className='footer__logo'/>
+                    </Zoom>
                 <p className="copyright__paragraph">Copyright 2023. Designed & coded by Dhanushan</p>          
             </div>
             </div>

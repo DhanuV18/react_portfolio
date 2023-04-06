@@ -2,6 +2,7 @@ import React from 'react'
 import './Work.scss'
 import { motion } from 'framer-motion';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import Flip from 'react-reveal/Flip';
 
 import movie from '../../images/thumbnail/movie@2x.webp'
 import tesla from '../../images/thumbnail/tesla@2x.webp'
@@ -37,10 +38,13 @@ const scaleVariants = {
 
         {/* Movie app */}
 
+        <Flip left>
         <motion.div
             // animate={animateCard}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
-            className="app__work-portfolio"> 
+          className="app__work-portfolio"> 
+
+          
           <div className="app__work-item app__flex" key="movie_App">
             <div className="app__work-img app__flex" >           
               <img src={ movie } alt="movie" />
@@ -92,9 +96,10 @@ const scaleVariants = {
             </div>
           </div>
         </motion.div>
-  
+  </Flip>
         {/* Tesla Clone */}
 
+        <Flip left>
         <motion.div
             // animate={animateCard}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
@@ -148,10 +153,11 @@ const scaleVariants = {
               </div>
             </div>
           </div>
-      </motion.div> 
+          </motion.div> 
+          </Flip>
         
         {/* Scooby */}
-
+<Flip left>
       <motion.div
             // animate={animateCard}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
@@ -205,10 +211,11 @@ const scaleVariants = {
               </div>
             </div>
           </div>
-      </motion.div> 
+          </motion.div> 
+          </Flip>
 
         {/* Portfolio  */}
-
+<Flip left>
         <motion.div
             // animate={animateCard}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
@@ -262,10 +269,11 @@ const scaleVariants = {
               </div>
             </div>
           </div>
-        </motion.div>  
+          </motion.div>  
+          </Flip>
         
         {/* E-Commerce  */}
-        
+        <Flip left>
       <motion.div
             // animate={animateCard}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
@@ -320,7 +328,7 @@ const scaleVariants = {
             </div>
           </div>
         </motion.div>  
-        
+       </Flip> 
         
     </div>   
 </div>

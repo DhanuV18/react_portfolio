@@ -2,7 +2,7 @@ import React from 'react'
 import './Work.scss'
 import { motion } from 'framer-motion';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
-
+import Flip from 'react-reveal/Flip';
 import game from '../../images/thumbnail/game.webp'
 
 
@@ -29,7 +29,10 @@ const scaleVariants = {
               <div className='skillPart__heading'>
                   <h6 className='skillPart__subheading'>Game Development</h6>            
               </div>  
-          </motion.div>  
+      </motion.div>  
+      
+      
+      <Flip left>
           
       <div  className='project__card'>
      <motion.div
@@ -106,10 +109,10 @@ const scaleVariants = {
 
           </motion.div>
           
-
   
 
 </div>   
+</Flip>
 
           </div>
       
