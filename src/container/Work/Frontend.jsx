@@ -312,7 +312,7 @@ const scaleVariants = {
                 </div>
             </div>
             <div className="app__work-content app__flex">
-              <h2 className="bold-text title">Netflix Clone</h2>
+              <h2 className="bold-text title">E-Commerce Website</h2>
               <p className="p-text" style={{ marginTop: 10 }}>
                 This is an E-Commerce website for multiple products. Here you can
                 find & add products to cart.
