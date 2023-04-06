@@ -45,7 +45,7 @@ const About = () => {
                   <p className="paragraph__one">
                    Hi! My name is Dhanushan. I'm passionate about bringing both the technical and
                     visual aspects of digital products to life. As a developer I love to create new products...
-                    I'm a Frontend Software engineer who builds websites and web applications that lead to the
+                    I'm a frontend software engineer who builds websites and web applications that lead to the
                     success of the overall product.
                   </p>                
                   </Zoom>
