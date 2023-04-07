@@ -56,7 +56,7 @@ const About = () => {
               > */}
        
                   <p className="paragraph__two">
-                    I have a Bachelor's degree in Software Engineering from London Metropolitan university.
+                    I have a Bachelor's degree in Software Engineering from London Metropolitan University.
                     I feel very happy when I'm creating, learning, exploring and thinking about how to make things better.
                   </p>
 
