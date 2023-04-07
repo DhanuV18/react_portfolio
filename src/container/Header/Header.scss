@@ -80,6 +80,7 @@
     @media screen and (max-width: 768px) {
       position: relative;
       top: 0px;
+      
     }
 
   }
@@ -102,6 +103,10 @@
       right: 140px;
       // left: -200px;
       font-size: 1rem;
+
+      @media screen and (max-width: 400px) {
+        right: 200px;
+      }
 
       p {
         white-space: nowrap;
