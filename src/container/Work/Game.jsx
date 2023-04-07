@@ -37,7 +37,9 @@ const scaleVariants = {
       <div  className='project__card'>
      <motion.div
         // animate={animateCard}
-        transition={{ duration: 0.5, delayChildren: 0.5 }}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+           variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
         className="app__work-portfolio"
       >
  

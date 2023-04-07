@@ -41,6 +41,8 @@ const scaleVariants = {
    
         <motion.div
             // animate={animateCard}
+             variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
             transition={{ duration: 0.5, delayChildren: 0.5 }}
           className="app__work-portfolio"> 
 
@@ -102,7 +104,9 @@ const scaleVariants = {
    
         <motion.div
             // animate={animateCard}
-            transition={{ duration: 0.5, delayChildren: 0.5 }}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+           variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
             className="app__work-portfolio"> 
           <div className="app__work-item app__flex" key="Tesla clone">
             <div className="app__work-img app__flex" >           
@@ -160,7 +164,9 @@ const scaleVariants = {
 
       <motion.div
             // animate={animateCard}
-            transition={{ duration: 0.5, delayChildren: 0.5 }}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+           variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
             className="app__work-portfolio"> 
           <div className="app__work-item app__flex" key="Scooby">
             <div className="app__work-img app__flex" >           
@@ -218,7 +224,9 @@ const scaleVariants = {
 
         <motion.div
             // animate={animateCard}
-            transition={{ duration: 0.5, delayChildren: 0.5 }}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+           variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
             className="app__work-portfolio"> 
           <div className="app__work-item app__flex" key="Portfolio">
             <div className="app__work-img app__flex" >           
@@ -276,7 +284,9 @@ const scaleVariants = {
    
       <motion.div
             // animate={animateCard}
-            transition={{ duration: 0.5, delayChildren: 0.5 }}
+          transition={{ duration: 0.5, delayChildren: 0.5 }}
+           variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
             className="app__work-portfolio"> 
           <div className="app__work-item app__flex" key="E-Commerce">
             <div className="app__work-img app__flex" >           
