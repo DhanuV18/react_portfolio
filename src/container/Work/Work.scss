@@ -84,6 +84,11 @@
     }
 
     @media screen and (max-width: 399px) {
+      width: 18rem;
+      // padding: 1.25rem;
+    }
+  
+    @media screen and (max-width: 359px) {
       width: 15rem;
       // padding: 1.25rem;
     }
